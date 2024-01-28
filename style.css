@@ -8,16 +8,11 @@
 }
 
 body{
-    margin-top: 20px;
     background-image: url("assets/25336.jpg");
     background-repeat: no-repeat;
     background-size: 100em;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    height: 100%;
 }
 
 main{
@@ -25,7 +20,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .title{
@@ -33,6 +28,8 @@ main{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .message{
@@ -81,6 +78,7 @@ footer{
     padding: 20px;
     display: flex;
     justify-content: center;
+    margin-top: 70px;
 }
 
 p{
@@ -89,6 +87,10 @@ p{
 }
 
 @media screen and (max-width: 1250px){
+    main{
+        height: 76vh;
+    }
+
     .title{
         margin-top: 40px;
         font-size: 1.5em;
